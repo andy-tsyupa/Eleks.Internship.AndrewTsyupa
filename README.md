@@ -3,6 +3,6 @@ Practical task of Andrew Tsyupa for Eleks Internship (Nov 2017)
 ## Student Info
 * Name: Andrii Tsyupa
 * University: КЕП ІФНТУНГ
-* Course: //todo: додайте сюди курс, на якому навчаєтесь
+* Course: //todo: 4 Курс 
 ## Task Info
-//todo: додайте сюди завдання, яке ви виконуєте на практиці (текст завдання)
+//todo: Directory Cleaner
