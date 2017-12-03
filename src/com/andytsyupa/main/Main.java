@@ -111,6 +111,20 @@ public class Main {
 }
 
 
+ /*try (FileWriter writer = new FileWriter("D:\\Projects\\pracktika\\src\\com\\andytsyupa\\main\\FJava.txt", false)){
+         String text  = "Xeynf";
+         writer.write(text);
+
+         writer.append('\n');
+         writer.append('E');
+
+         writer.flush();
+         }
+
+         catch (IOException ex){
+         System.out.println(ex.getMessage());
+         }
+        */
 // startdate end
 // enddate
 
