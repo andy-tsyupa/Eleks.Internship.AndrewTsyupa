@@ -17,10 +17,13 @@ import java.util.*;
 
 public class Main {
 
+
     public static ArrayList<File> listFilesForFolder(final File folder, ArrayList<File> list) {
+        int a = 0;
         for (final File fileEntry : folder.listFiles()) {
+
             if (fileEntry.isDirectory()) {
-                list = listFilesForFolder(fileEntry, list);
+                list = listFilesForFolder(fileEntry, list); //рекурсія//
             } else {
                 list.add(fileEntry);
             }
@@ -31,13 +34,6 @@ public class Main {
   /*  public void parse(String path, String startDate, String endDate){
 
     }*/
-
-
-
-
-
-
-
 
 
     public static void main(String args[]) throws Exception {
@@ -51,13 +47,15 @@ public class Main {
         Date startDate = format.parse(start);
 
         String endDate = "2017-11-30";
-        DateFormat format3 = new SimpleDateFormat( "yyyy-MM-dd", Locale.US);
+        DateFormat format3 = new SimpleDateFormat("yyyy-MM-dd", Locale.US);
         Date endDateFile = format3.parse(endDate);
 
         //String path = "D:/Музика";
-        String path = "d:/Фільми/Family Guy - WEB-DL 720p [Ukr, Eng] [Hurtom]/Season 12 (2013-2014) WEB-DL 720p [Ukr, Eng] [Hurtom]/";
+        String path = "d:/test";
 
         File folder = new File(path);
+
+        int a = 0;
 
         ArrayList<File> list = new ArrayList<File>();
 
@@ -65,14 +63,21 @@ public class Main {
 
 
         long total = 0;
+        // bbb.png
+        //     ee.png
 
-        for (File fileEntry : list) {
+        //for (File fileEntry : list) {
+        for (int i = 0; i < list.size(); i++) {
+            File fileEntry = list.get(i);
             total = total + fileEntry.length() / 1048576;
 
             Date date = new Date();
             date.setTime(fileEntry.lastModified());
 
-            if (startDate.compareTo(date) < 0 ) {
+            if (startDate.compareTo(date) < 0) {
+                fileEntry.delete();
+
+
                 SimpleDateFormat format1 = new SimpleDateFormat("d-M-Y H:m:s");
                 String DateToStr = format1.format(date);
 
@@ -93,19 +98,17 @@ public class Main {
 
 
         System.out.println(total / 1024 + " " + "Gb");
-        try (FileWriter writer = new FileWriter("D:\\Projects\\pracktika\\src\\com\\andytsyupa\\main\\FJava.txt", false)){
-            String text  = "Xeynf";
+        try (FileWriter writer = new FileWriter("D:\\Projects\\pracktika\\src\\com\\andytsyupa\\main\\FJava.txt", false)) {
+            String text = "Xeynf";
             writer.write(text);
 
             writer.append('\n');
-            writer.append('E');
+            writer.append('E'); // дописує
 
             writer.flush();
-       }
-
-       catch (IOException ex){
-           System.out.println(ex.getMessage());
-       }
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
 
     }
 }
