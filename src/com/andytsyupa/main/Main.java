@@ -1,6 +1,6 @@
 
 
-package vikno;
+package com.andytsyupa.main;
 
 import org.omg.CORBA.Object;
 
