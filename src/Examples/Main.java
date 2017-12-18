@@ -1,17 +1,8 @@
 
 
-package com.andytsyupa.main;
+package Examples;
 
-import org.omg.CORBA.Object;
-
-import javax.xml.crypto.Data;
 import java.io.*;
-import java.lang.reflect.Array;
-import java.nio.charset.Charset;
-import java.nio.file.DirectoryStream;
-import java.nio.file.Files;
-import java.nio.file.NotDirectoryException;
-import java.nio.file.Path;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;

@@ -1,11 +1,7 @@
-package vikno;
+package Examples;
 
 import javax.swing.*;
-import javax.swing.text.MaskFormatter;
 import java.awt.*;
-import java.time.chrono.JapaneseDate;
-import javax.swing.text.*;
-import java.text.*;
 
 public class Form {
 

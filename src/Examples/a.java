@@ -1,6 +1,4 @@
-package vikno;
-
-import java.util.ArrayList;
+package Examples;
 
 public class a {
 

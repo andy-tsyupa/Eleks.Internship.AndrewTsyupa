@@ -1,4 +1,4 @@
-package vikno;
+package Examples;
 
 import java.io.IOException;
 
