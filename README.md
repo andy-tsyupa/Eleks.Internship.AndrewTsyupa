@@ -6,17 +6,7 @@ Practical task of Andrew Tsyupa for Eleks Internship (Nov 2017)
 * Course: //todo: 4 Курс 
 ## Task Info
   Directory Cleaner  [Directory Cleaner video](https://www.youtube.com/watch?v=MTHheSWQ__M&feature=youtu.be) 
-  ![Directory Cleaner Image ](https://github.com/AndrewTsyupa/img/raw/master/1.PNG)
-  
-![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
-
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
-
-{username} — ваш ник на ГитХабе;
-{repository} — репозиторий где хранятся картинки;
-{branch} — ветка репозитория;
-{path} — путь к месту нахождения картинки.
-  
+  ![Зображенн Файлового менеджера ](https://github.com/AndrewTsyupa/img/raw/master/1.PNG) 
 ## Функціонал настільного додатку  
 Розроблено настільний додаток для роботи з файловою системою. Юзер  має можливість
   обрати в програмі каталог для роботи. Після вибору каталгу додаток виконує рекурсивне
