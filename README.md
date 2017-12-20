@@ -5,8 +5,8 @@ Practical task of Andrew Tsyupa for Eleks Internship (Nov 2017)
 * University: КЕП ІФНТУНГ
 * Course: //todo: 4 Курс 
 ## Task Info
-  Directory Cleaner  [Notes app](https://www.youtube.com/watch?v=MTHheSWQ__M&feature=youtu.be) - Відео
-  ![Image alt](https://github.com/{AndrewTsyupa}/{https://https://www.flickr.com/})
+  Directory Cleaner  [Directory Cleaner video](https://www.youtube.com/watch?v=MTHheSWQ__M&feature=youtu.be) 
+  ![Directory Cleaner Image ](https://github.com/{AndrewTsyupa}/{img}/{rew})
   
 
   
