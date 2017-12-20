@@ -5,6 +5,7 @@ Practical task of Andrew Tsyupa for Eleks Internship (Nov 2017)
 * University: КЕП ІФНТУНГ
 * Course: //todo: 4 Курс 
 ## Task Info
+ Directory Cleaner  https://www.youtube.com/watch?v=MTHheSWQ__M&feature=youtu.be
 Розробити настільний додаток для роботи з файловою системою. Юзер повинен мати можливість
 обрати в програмі каталог для роботи. Після вибору каталгу додаток повинен рекурсивно
 відсканувати усі файли в каталозі та його підкаталогах і вивести наступну інформацію:
