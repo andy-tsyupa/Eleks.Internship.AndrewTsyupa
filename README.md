@@ -1,10 +1,10 @@
-Eleks.Internship.AndrewTsyupa
+# Eleks.Internship.AndrewTsyupa
 Practical task of Andrew Tsyupa for Eleks Internship (Nov 2017)
- Student Info
+## Student Info
 * Name: Andrii Tsyupa
 * University: КЕП ІФНТУНГ
 * Course: //todo: 4 Курс 
- Task Info
+## Task Info
 Розробити настільний додаток для роботи з файловою системою. Юзер повинен мати можливість
 обрати в програмі каталог для роботи. Після вибору каталгу додаток повинен рекурсивно
 відсканувати усі файли в каталозі та його підкаталогах і вивести наступну інформацію:
