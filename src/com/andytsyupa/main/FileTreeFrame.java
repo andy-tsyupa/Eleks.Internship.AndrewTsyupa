@@ -84,7 +84,7 @@ public class FileTreeFrame extends JFrame {
 
         buttonn.addActionListener ( new ActionListener () {
             public void actionPerformed(ActionEvent e) {
-               // System.out.println ( textField.getText () + " - " + textField2.getText () );
+
                 try {
                     proces ( textField.getText (), textField2.getText () );
 
@@ -163,7 +163,7 @@ public class FileTreeFrame extends JFrame {
                 String sі="<file>" + "\n" + "<filename>" + file.getAbsolutePath () + "</filename>" + "\n" + "<date>" + date + "</date>" + "\n" + "</file>" + "\n";
                 Path write=Files.write ( Paths.get ( "D:\\\\Projects\\\\pracktika\\\\src\\\\com\\\\andytsyupa\\\\main\\\\FJava2.xml" ), sі.getBytes (), StandardOpenOption.APPEND );
             } catch (IOException e) {
-                //exception handling left as an exercise for the reader
+
             }
             //* Видалення   file.delete ();
             System.out.println ( "Видалення" + file.getAbsoluteFile () );
@@ -175,7 +175,7 @@ public class FileTreeFrame extends JFrame {
             String sk="</files>" + "\n" + "</del>" + "\n" + " " + "\n";
             Path writers=Files.write ( Paths.get ( "D:\\\\Projects\\\\pracktika\\\\src\\\\com\\\\andytsyupa\\\\main\\\\FJava2.xml" ), sk.getBytes (), StandardOpenOption.APPEND );
         } catch (IOException e) {
-            //exception handling left as an exercise for the reader
+
         }
     }
 
