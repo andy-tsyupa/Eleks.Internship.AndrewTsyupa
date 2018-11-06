@@ -6,6 +6,7 @@ Practical task of Andrew Tsyupa for Eleks Internship (Nov 2017)
 * Course: //todo: 4 Курс 
 ## Task Info
   Directory Cleaner  [Directory Cleaner video](https://www.youtube.com/watch?v=MTHheSWQ__M&feature=youtu.be) 
+  SG.project [SG.project video](https://youtu.be/szGFKnIs7EY)
   ![Зображенн Файлового менеджера ](https://github.com/AndrewTsyupa/img/raw/master/2.PNG) 
 ## Функціонал настільного додатку  
 Розроблено настільний додаток для роботи з файловою системою. Юзер  має можливість
